@@ -5,7 +5,7 @@ import * as z from 'zod';
 import { Controller, useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { TransactionsContext } from '../../contexts/TransactionsContext';
-import { useContext, useContextSelector } from 'use-context-selector';
+import { useContextSelector } from 'use-context-selector';
 
 const newTransactionFormSchema  = z.object({
     description: z.string(),
