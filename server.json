@@ -1,0 +1,36 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2024-02-01T04:46:24.105Z"
+    },
+    {
+      "id": 2,
+      "description": "Hamburguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 49.9,
+      "createdAt": "2024-02-01T02:30:24.105Z"
+    },
+    {
+      "description": "Salario",
+      "price": 9000,
+      "category": "Proventos",
+      "type": "income",
+      "createdAt": "2024-02-03T04:56:50.051Z",
+      "id": 3
+    },
+    {
+      "description": "Bolo",
+      "price": 5,
+      "category": "Alimentaçao",
+      "type": "outcome",
+      "createdAt": "2024-02-03T05:11:59.928Z",
+      "id": 4
+    }
+  ]
+}
