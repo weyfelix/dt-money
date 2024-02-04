@@ -71,7 +71,7 @@ export function TransactionsProvider ({children}: TransactionsProviderProps) {
 
     useEffect(() => {
        feachTransactions();
-    }, [])
+    }, [feachTransactions])
 
     return (
         <TransactionsContext.Provider value={{ transactions, feachTransactions, createTransaction }}>
